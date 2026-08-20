@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d1117;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #161b22;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+}
+
+p {
+    color: #AAA;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.choice-btn {
+    font-size: 20px;
+    padding: 15px 20px;
+    border: 2px solid #30363d;
+    border-radius: 12px;
+    background: #21262d;
+    color: #EEE;
+    cursor: pointer;
+    transition: all 0.2s;
+    width: 110px;
+}
+
+.choice-btn:hover {
+    border-color: #58A6FF;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(88, 166, 255, 0.2);
+}
+
+.result-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.result-area p {
+    margin-bottom: 5px;
+    font-size: 0.85rem; 
+}
+
+.pick {
+    font-size: 2.5rem;
+}
+
+.vs {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.round-result {
+    font-size: 1.4rem;
+    font-weight: bold;
+    min-height: 35px;
+    margin-bottom: 20px;   
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.score-num {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #58A6FF;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #238636;
+    color: #FFF;
+    transition: background-color 0.2s;
+}
+
+.reset-btn:hover {
+    background-color: #2EA043;
+}
+
+.hidden {
+    display: none;
+}
